@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(45, 45, 87);
+}
+header{
+    height: 100px;
+    background-color: rgb(40, 39, 39);
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    margin: 20px;
+    width: 300px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+}
+.ki{
+    margin: 20px;
+    width: 100px;
+    height: 55px;
+    border-radius: 10px;
+}
+p{
+    margin: 20x;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+nav{
+    height: 50px;
+    background-color: rgb(86, 76, 76);
+}
+.men{
+    padding: 15px;
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.un{
+    width: 50px;
+}
+.foto{
+    margin: 60px;
+    justify-content: center;
+    display: flex;
+}
+.applefoto{
+    width: 400px;
+    height: 400px;
+}
+.matn{
+    font-size: 60px;
+    text-align: center;
+}
+.matn-2{
+    display: flex;
+    justify-content: center;
+}
+.matn-pasi{
+    font-size: 30px;
+}
+footer{
+    width: 100%;
+    background-color: white;
+}
+.pasi{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    list-style: none;
+}
